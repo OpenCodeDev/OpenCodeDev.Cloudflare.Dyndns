@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <Title>Cloudflare DynDNS</Title>
+    <RepositoryUrl>https://github.com/OpenCodeDev/OpenCodeDev.Cloudflare.Dyndns</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <Copyright>OpenCodeDev © 2023</Copyright>
+    <PackageProjectUrl>https://github.com/OpenCodeDev/OpenCodeDev.Cloudflare.Dyndns</PackageProjectUrl>
+    <Version>0.2.0-alpha</Version>
+    <Company>OpenCodeDev</Company>
+    <Authors>Max Samson</Authors>
+    <Description>Quick Tool to update DNS ip of Cloudflat A Record.</Description>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <StartupObject>Program</StartupObject>
+    <AssemblyName>cloudflaredyndns</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CloudFlare.Client" Version="6.1.4" />
+  </ItemGroup>
+
+</Project>

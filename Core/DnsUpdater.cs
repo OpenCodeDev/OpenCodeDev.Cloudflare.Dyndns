@@ -85,8 +85,8 @@ namespace OpenCodeDev.Cloudflare.Dyndns.Core
             bool error = false;
             ProcessBoolFlag("--waitexit", v => WaitToExit = v, ref events);
             ProcessValueFlag("--apikey", true, v => Key = v, ref error, ref events);
-            ProcessValueFlag("--arecord", false, v => ARecordName = v, ref error, ref events);
-            ProcessValueFlag("--zoneid", false, v => ZoneId = v, ref error, ref events);
+            ProcessValueFlag("--arecord", true, v => ARecordName = v, ref error, ref events);
+            ProcessValueFlag("--zoneid", true, v => ZoneId = v, ref error, ref events);
             messages = events.ToArray();
             return error;
         }

@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33103.184
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenCodeDev.Cloudflare.Dyndns", "OpenCodeDev.Cloudflare.Dyndns\OpenCodeDev.Cloudflare.Dyndns.csproj", "{B5EB28FF-5A80-4C06-999E-6F4D444CF9DC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenCodeDev.Cloudflare.Dyndns", "OpenCodeDev.Cloudflare.Dyndns.csproj", "{B5EB28FF-5A80-4C06-999E-6F4D444CF9DC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
