@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33103.184
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenCodeDev.Cloudflare.Dyndns", "OpenCodeDev.Cloudflare.Dyndns\OpenCodeDev.Cloudflare.Dyndns.csproj", "{B5EB28FF-5A80-4C06-999E-6F4D444CF9DC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B5EB28FF-5A80-4C06-999E-6F4D444CF9DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5EB28FF-5A80-4C06-999E-6F4D444CF9DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5EB28FF-5A80-4C06-999E-6F4D444CF9DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5EB28FF-5A80-4C06-999E-6F4D444CF9DC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FDDC2374-7389-43DC-A90D-9EBF00BCDA7E}
+	EndGlobalSection
+EndGlobal
