@@ -12,7 +12,7 @@
       "Version": "2.3",
       "SafeToUpdateFrom": [ "1.*", "1.1^" ],
       "UnsafeToUpdateMessage": "Check out http://update.project.com/upgrade/ to understand the breaking changes.",
-      "EndOfLife": "2017-09-08T19:01:55.714942+03:00",
+      "EndOfLife": "2018-05-27T06:08:40.688Z",
       "EndOfLifeWarning": "The version 2.x is moving from LTS to end of life. You should upgrade to 4.0 LTS soon.",
       "LinuxURL": "",
       "Credits": [
