@@ -9,7 +9,7 @@
   },
   "Updates": [
     {
-      "Version": 2.3,
+      "Version": "2.3",
       "SafeToUpdateFrom": [ "1.*", "1.1^" ],
       "UnsafeToUpdateMessage": "Check out http://update.project.com/upgrade/ to understand the breaking changes.",
       "EndOfLife": "2022-11-1",
