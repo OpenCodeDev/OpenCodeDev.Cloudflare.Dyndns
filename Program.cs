@@ -8,8 +8,6 @@ internal class Program
 {
 
 
-
-
     private static void Main(string[] args)
     {
         DnsUpdater dns = new DnsUpdater();

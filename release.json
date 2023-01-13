@@ -1,0 +1,26 @@
+{
+  "ProjectInfo": {
+    "Name": "My Project",
+    "Company": "OpenCodeDev",
+    "Author": "Max Samson",
+    "Copyright": "OpenCodeDev c 20xx.",
+    "UpdateWelcomeMessage": "Welcome folks! This project is rolling strong... Check out our page X.",
+    "License": "MIT"
+  },
+  "Updates": [
+    {
+      "Version": 2.3,
+      "SafeToUpdateFrom": [ "1.*", "1.1^" ],
+      "UnsafeToUpdateMessage": "Check out http://update.project.com/upgrade/ to understand the breaking changes.",
+      "EndOfLife": "2022-11-1",
+      "EndOfLifeWarning": "The version 2.x is moving from LTS to end of life. You should upgrade to 4.0 LTS soon.",
+      "LinuxURL": "",
+      "Credits": [
+        "Max Samson:For his continuous support throughout the success of this endeavor!",
+        "OCD:For all to money poured into OpenSource Tooling Solutions",
+        "To You: For your wits and support."
+      ]
+    }
+  ]
+}
+

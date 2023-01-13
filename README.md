@@ -1,2 +1,3 @@
 # OpenCodeDev.Cloudflare.Dyndns
-Script to update DNS with public IP. Works for Linux and Windows.
+Just a quick script to run DynDNS update on cloudflare.
+
