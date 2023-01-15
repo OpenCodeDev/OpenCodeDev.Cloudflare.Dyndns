@@ -24,6 +24,7 @@ internal class Program
         DnsUpdater dns = new DnsUpdater();
         try
         {
+
             var v = typeof(Program).Assembly.GetName().Version;
             if (v == null) throw new Exception("Cannot get version ??");
             JObject versionFile = new JObject();
@@ -31,15 +32,22 @@ internal class Program
             versionFile["Checksum"] = ToMD5(v.ToString(3));
 
             File.WriteAllText("./version.json", versionFile.ToString());
+
             dns = new DnsUpdater(args);
-            dns.UpdateNow().GetAwaiter().GetResult();
+            do
+            {
+                var prov = dns.Tasks.Dequeue();
+                prov.Start();
+                // Wait 1s for each domain
+                Task.Delay(1000).GetAwaiter().GetResult();
+            } while (dns.Tasks.Count > 0);
         }
         catch (Exception ex)
         {
             Console.WriteLine(ex.Message);
         }
         finally {
-            if (dns.WaitToExit || typeof(DnsUpdater).GetEnvironmentBuild().Equals("Debug", StringComparison.OrdinalIgnoreCase))
+            if (typeof(DnsUpdater).GetEnvironmentBuild().Equals("Debug", StringComparison.OrdinalIgnoreCase))
             {
                 Console.WriteLine("Press any key to continue;");
                 Console.ReadKey();

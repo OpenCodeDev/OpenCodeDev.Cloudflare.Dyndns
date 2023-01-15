@@ -1,0 +1,9 @@
+{
+  "cloudflare": [
+    {
+      "key": "API_KEY",
+      "record": "sub.domain.com",
+      "zoneid":  ""
+    }
+  ]
+}
