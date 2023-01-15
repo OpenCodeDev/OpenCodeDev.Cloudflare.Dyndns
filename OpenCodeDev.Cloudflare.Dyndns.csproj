@@ -10,7 +10,7 @@
     <RepositoryType>git</RepositoryType>
     <Copyright>OpenCodeDev © 2023</Copyright>
     <PackageProjectUrl>https://github.com/OpenCodeDev/OpenCodeDev.Cloudflare.Dyndns</PackageProjectUrl>
-    <Version>0.2.0-alpha</Version>
+    <Version>0.2.1</Version>
     <Company>OpenCodeDev</Company>
     <Authors>Max Samson</Authors>
     <Description>Quick Tool to update DNS ip of Cloudflat A Record.</Description>

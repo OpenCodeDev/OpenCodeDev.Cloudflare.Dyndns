@@ -9,13 +9,13 @@
   },
   "Updates": [
     {
-      "Version": "2.3.0",
-      "Checksum": "70e2b24f7d348efe6b30b41469d5070c",
+      "Version": "0.2.1",
+      "Checksum": "96a5d0f2a178420f4134741cf92b684c",
       "SafeToUpdateFrom": [],
       "UnsafeToUpdateMessage": "Check out http://update.project.com/upgrade/ to understand the breaking changes.",
-      "EndOfLife": "2022-11-1",
+      "EndOfLife": "2018-05-27T06:08:40.688Z",
       "EndOfLifeWarning": "The version 2.x is moving from LTS to end of life. You should upgrade to 4.0 LTS soon.",
-      "LinuxURL": "",
+      "LinuxURL": "https://github.com/OpenCodeDev/OpenCodeDev.Cloudflare.Dyndns/releases/download/test/CloudflareDynDNS",
       "MigrationPatch": null,
       "Credits": [
         "Max Samson:For his continuous support throughout the success of this endeavor!",
@@ -24,11 +24,11 @@
       ]
     },
     {
-      "Version": "1.1.1",
-      "Checksum": "7d23ff901039aef6293954d33d23c066",
+      "Version": "0.2.0",
+      "Checksum": "44b732a6709d52e07db0367d4938965c",
       "SafeToUpdateFrom": [],
       "UnsafeToUpdateMessage": "Check out http://update.project.com/upgrade/ to understand the breaking changes.",
-      "EndOfLife": "2022-11-1",
+      "EndOfLife": "2018-05-27T06:08:40.688Z",
       "EndOfLifeWarning": "The version 2.x is moving from LTS to end of life. You should upgrade to 4.0 LTS soon.",
       "LinuxURL": "",
       "MigrationPatch": null,
