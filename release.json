@@ -9,20 +9,29 @@
   },
   "Updates": [
     {
-      "Version": "2.3",
-      "SafeToUpdateFrom": [
-        "[1.1.0,1.1.2]",
-        "1.*",
-        "1.1.*",
-        "1.1_",
-        "1_",
-        "1.1.1^",
-        "1.1^"
-      ],
+      "Version": "2.3.0",
+      "Checksum": "70e2b24f7d348efe6b30b41469d5070c",
+      "SafeToUpdateFrom": [],
       "UnsafeToUpdateMessage": "Check out http://update.project.com/upgrade/ to understand the breaking changes.",
-      "EndOfLife": "2018-05-27T06:08:40.688Z",
+      "EndOfLife": "2022-11-1",
       "EndOfLifeWarning": "The version 2.x is moving from LTS to end of life. You should upgrade to 4.0 LTS soon.",
       "LinuxURL": "",
+      "MigrationPatch": null,
+      "Credits": [
+        "Max Samson:For his continuous support throughout the success of this endeavor!",
+        "OCD:For all to money poured into OpenSource Tooling Solutions",
+        "To You: For your wits and support."
+      ]
+    },
+    {
+      "Version": "1.1.1",
+      "Checksum": "7d23ff901039aef6293954d33d23c066",
+      "SafeToUpdateFrom": [],
+      "UnsafeToUpdateMessage": "Check out http://update.project.com/upgrade/ to understand the breaking changes.",
+      "EndOfLife": "2022-11-1",
+      "EndOfLifeWarning": "The version 2.x is moving from LTS to end of life. You should upgrade to 4.0 LTS soon.",
+      "LinuxURL": "",
+      "MigrationPatch": null,
       "Credits": [
         "Max Samson:For his continuous support throughout the success of this endeavor!",
         "OCD:For all to money poured into OpenSource Tooling Solutions",
