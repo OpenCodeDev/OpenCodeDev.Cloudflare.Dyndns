@@ -13,6 +13,7 @@ Just a quick script to run DynDNS update on cloudflare.
 ## Maybe
 - Add other providers such as DO, Google, Azure...
 
+<br/>
 
 ## How to use (Debian Linux)
 
@@ -84,3 +85,23 @@ Enable your timer so it gets activated at boot time.
 systemctl enable cfdns.timer
 ```
 
+## How to use on Windows 10/11
+
+Download https://github.com/OpenCodeDev/OpenCodeDev.Cloudflare.Dyndns/releases/download/0.3.0-alpha/win-x64.zip
+
+Already have .net6? https://github.com/OpenCodeDev/OpenCodeDev.Cloudflare.Dyndns/releases/download/0.3.0-alpha/win-x64-no-net6.zip
+
+Configure your config.json like above in linux section.
+
+Open CMD console... 
+
+```
+cd "Extracted PATH"
+./cfdyndns.exe
+```
+
+You can either add the directory to environment path so you don't have to CD each time or you can install the cmd into windows/system32 folder (not recommended).
+
+You can also directly run the program it will just close automatically at the end.
+
+In order to schedule task you can search google or use any popular task scheduling program just make sure that you can set the working directory where the config.json is.
